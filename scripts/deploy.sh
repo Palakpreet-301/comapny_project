@@ -24,8 +24,7 @@ git push origin main
 
 echo "Deploying to S3..."
 
-aws s3 sync website/ s3://company-website-12345
-
+aws s3 sync website/ s3://company-static-website123
 echo "Deployment Completed $DATE" >> logs/deploy.log
 
 echo "Done"
